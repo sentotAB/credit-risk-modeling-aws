@@ -28,7 +28,7 @@ env/
 *.csv
 *.parquet
 *.json
-!data/data_dictionary.xlsx
+
 
 # === Logs & Temp ===
 *.log
@@ -52,5 +52,5 @@ models/
 # === Output / Reports ===
 output/
 reports/figures/
-*.png
+
 *.pdf
