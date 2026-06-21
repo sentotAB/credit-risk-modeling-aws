@@ -1,0 +1,56 @@
+# === AWS & Cloud Credentials ===
+.aws/
+*.pem
+*.key
+credentials
+config
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv/
+venv/
+env/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# === Data Files (jangan commit data mentah ke GitHub) ===
+*.csv
+*.parquet
+*.json
+!data/data_dictionary.xlsx
+
+# === Logs & Temp ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Spark / Glue Local ===
+spark-warehouse/
+metastore_db/
+derby.log
+
+# === Model Artifacts ===
+*.pkl
+*.joblib
+*.model
+*.bin
+models/
+
+# === Output / Reports ===
+output/
+reports/figures/
+*.png
+*.pdf
