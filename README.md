@@ -23,6 +23,8 @@
 
 ---
 
+## Demo Streamlit : https://demo-credit-risk.streamlit.app/
+
 ## 1. Ringkasan Eksekutif
 
 Proyek ini mengimplementasikan sistem **otomatisasi penilaian risiko kredit** (*Innovative Credit Scoring*) berskala *enterprise* dengan arsitektur **cloud-native AWS**. Menggunakan basis data terdistribusi bertumpu pada **Arsitektur Medallion**, sistem ini melakukan pembersihan data, rekayasa fitur finansial tingkat lanjut, hingga pelatihan model ansambel prediktif guna memitigasi angka **Non-Performing Loan (NPL)** atau Tingkat Wanprestasi (TWP90).
